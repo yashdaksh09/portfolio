@@ -64,7 +64,7 @@ body{
 }
 
 /* Skills Section */
-.skills-heading{
+.skills{
     text-align: center;
 }
 .skills-section{
@@ -123,7 +123,7 @@ body{
 }
 
 /* Projects */
-.projects-heading{
+.projects-section{
     text-align: center;
     margin-bottom: 2.5rem;
 
@@ -149,8 +149,6 @@ body{
 }
 
 .card:hover {
-    /* height: 19rem !important;
-    width: 19rem !important; */
     transform: translateY(-10px);
     box-shadow: #5970e6;
 
@@ -272,4 +270,17 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* responsive */
+@media(min-width: 250px) and (min-width: 400px){
+    .skills{
+        margin-top: 10rem;
+    }
+}
+
+@media(min-width: 942px){
+    .projects-section{
+        flex-wrap: wrap;
+    }
 }
